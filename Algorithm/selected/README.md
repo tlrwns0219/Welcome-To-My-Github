@@ -4,10 +4,13 @@
 * [정렬 알고리즘이란?](#정렬-알고리즘이란?)
 * [선택정렬 알고리즘](#선택정렬-알고리즘)
   * 특징
+  * Source
 * [퀵정렬 알고리즘](#퀵정렬-알고리즘)
   * 특징
+  * Source
 * [병합정렬 알고리즘](#병합정렬-알고리즘)
   * 특징
+  * Source
 
 
 ## 정렬 알고리즘이란?
@@ -26,6 +29,9 @@
 
 ![](/assets/images/algorithm/sorted_1.png)
 
+[뒤로](https://github.com/bugkingK/Welcome-To-My-Github/blob/master/Algorithm/README.md)/[위로](#selected-algorithm)
+
+</br></br></br>
 
 ### 선택정렬 알고리즘
 - 선택정렬 알고리즘이란? 정렬되지 않은 전체 자료 중에서 해당 위치에 맞는 자료를 선택하여 위치를 교환하는 알고리즘입니다. 글로는 이해가 잘 안되지만 그림으론 굉장히 간단한 알고리즘입니다.
@@ -60,6 +66,7 @@
 
 [뒤로](https://github.com/bugkingK/Welcome-My-Github)/[위로](#selected-algorithm)
 
+</br></br></br>
 
 ### 퀵정렬 알고리즘
  - 퀵 정렬 알고리즘이란? 중심 값(피봇: Pivot)을 기준으로 두 자료의 키 값을 비교하여 위치를 교환하는 방법입니다.
@@ -94,8 +101,9 @@
 
  - 효율성 : 평균O(nlogn), 최악(n^2), 안정성 : 유지불가함.
 
-[뒤로](https://github.com/bugkingK/Welcome-My-Github)/[위로](#selected-algorithm)
+[뒤로](https://github.com/bugkingK/Welcome-To-My-Github/blob/master/Algorithm/README.md)/[위로](#selected-algorithm)
 
+</br></br></br>
 
 ### 병합정렬 알고리즘
  - 병합 정렬이란? 기존 자료를 원소의 갯수가 동일한 부분집합으로 분할하고 분할된 각 부분 집합을 병합하면서 정렬 작업을 완성하는 방식으로 정렬합니다. 또 몇 개의 부분집합으로 나누냐에 따라 종류가 나뉘게 되는데, 2개의 정렬된 자료집합을 병합하는 경우 2-way 병합, n개일 땐 n-way 병합입니다. 저는 2-way 병합을 공부했습니다. 작동원리는 다음과 같습니다.
@@ -122,5 +130,5 @@
  - 기존 자료를 원소의 갯수가 동일한 부분집합으로 분할하고 또 부분집합들을 병합하므로 O(logn)이 됩니다. 병합할 때 모든 원소를 비교하므로 O(nlogn)이 됩니다. 비교할 때 모든 원소를 다 거치므로 최선, 평균, 최악 모두 O(nlogn)이 됩니다. 하지만 추가 메모리공간이 필요하고 이동횟수가 많다는 단점이 있습니다. 배열 대신 연결리스트를 사용하여 이동 대신 연결포인터만 변경하여 성능을 높일 수 있다합니다. 기존의 선택과 퀵 정렬은 교환 기반이라 안전성을 유지하지 못하지만 병합 정렬은 병합을 기반으로 하여 안전성을 유지할 수 있습니다.
 
 
-[뒤로](https://github.com/bugkingK/Welcome-My-Github)/[위로](#selected-algorithm)
+[뒤로](https://github.com/bugkingK/Welcome-To-My-Github/blob/master/Algorithm/README.md)/[위로](#selected-algorithm)
 
